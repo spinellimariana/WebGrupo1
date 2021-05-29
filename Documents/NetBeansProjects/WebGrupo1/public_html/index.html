@@ -6,11 +6,175 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>ADIMO Imobiliária - Venda e Locação de Imóveis</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/banner.js"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header class = "container">
+            <h1><img src="img/logoBranco.jpg" alt="Logo da ADIMO Imobiliária"></h1>
+            <p class="sacola">
+                Nenhum imóvel selecionado
+            </p>
+            <nav class="menu-opcoes">
+                <ul>
+                    <li><a href="#">Sua conta</a></li>
+                    <li><a href="#">Imóveis Salvos</a></li>
+                    <li><a href="Sobre.html">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container destaque">
+            <section class="busca">
+                <h2>Busca</h2>
+                <form>
+                    <input type="search">
+                    <button>Buscar</button>
+                </form>
+            </section>
+            <section class="menu-departamentos">
+                <h2>Selecione</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Locação</a>
+                            <ul>
+                                <li><a href="#">Apartamentos</a></li>
+                                <li><a href="#">Casas</a></li>
+                            </ul>
+                        </li>         
+                        <li><a href="#">Venda</a>
+                            <ul>
+                                <li><a href="#">Apartamentos</a></li>
+                                <li><a href="#">Casas</a></li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </nav>
+            </section>
+            <section class="banner-destaque">
+                <figure>
+                    <img src="img/casa-destaque2.jpg" 
+                         alt="Casa Alto Padrão">
+                </figure>
+            </section>
+        </div>
+        <div class="container paineis" >
+            <section class="painel apartamentos">
+                <h2>Apartamentos</h2>
+                <ol>
+                    <li>
+                        <a href="apartamento.html">
+                            <figure>
+                                <img src="img/apto1.jpg" alt="miniatura1">
+                                <figcaption>Rústico</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="apartamento.html">
+                            <figure>
+                                <img src="img/apto2.jpg" alt="miniatura2">
+                                <figcaption>Morderno</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="apartamento.html">
+                            <figure>
+                                <img src="img/apto3.jpg" alt="miniatura3">
+                                <figcaption>Artístico</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="apartamento.html">
+                            <figure>
+                                <img src="img/apto4.jpg" alt="miniatura4">
+                                <figcaption>Vilarejo Tranquilo</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="apartamento.html">
+                            <figure>
+                                <img src="img/apto5.jpg" alt="miniatura5">
+                                <figcaption>Térreo</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="apartamento.html">
+                            <figure>
+                                <img src="img/apto6.jpg" alt="miniatura6">
+                                <figcaption>Charmoso</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                </ol>
+            </section>
+            <section class="painel casas">
+                <h2>Casas</h2>
+                <ol>
+                    <li>
+                        <a href="casa.html">
+                            <figure>
+                                <img src="img/casa1.jpg" alt="miniatura7">
+                                <figcaption>Clássica</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="casa.html">
+                            <figure>
+                                <img src="img/casa2.jpg" alt="miniatura8">
+                                <figcaption>Aconchegante</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="casa.html">
+                            <figure>
+                                <img src="img/casa3.jpg" alt="miniatura9">
+                                <figcaption>Vários quartos</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="casa.html">
+                            <figure>
+                                <img src="img/casa4.jpg" alt="miniatura10">
+                                <figcaption>Com piscina</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="casa.html">
+                            <figure>
+                                <img src="img/casa5.jpg" alt="miniatura11">
+                                <figcaption>Condomínio fechado</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="casa.html">
+                            <figure>
+                                <img src="img/casa6.jpg" alt="miniatura12">
+                                <figcaption>Arquitetura</figcaption>
+                            </figure>
+                        </a>    
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                Entre em contato conosco!
+            </div>
+       </footer>
     </body>
 </html>

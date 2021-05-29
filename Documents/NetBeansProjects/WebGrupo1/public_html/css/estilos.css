@@ -1,0 +1,180 @@
+.sacola{
+    background-image: url(../img/Home-icon.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-right: 35px;
+    padding-top: 8px;
+    font-size: 14px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.menu-opcoes ul{
+    font-size: 15px
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px
+}
+
+.menu-opcoes a{
+    color: #036
+}
+
+body{
+    color: #333;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px
+}
+
+header{
+    position: relative;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.busca, .menu-departamentos{
+    background-color: #F4A460;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left
+}
+
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu-departamentos{
+    clear:left;
+    margin-top: 10px;
+    padding-bottom: 10px
+}
+
+.destaque{
+    margin-top: 10px;
+}
+
+.busca h2, .busca form, .menu-departamentos h2{
+    margin: 10px
+}
+
+.menu-departamentos li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px
+}
+
+.menu-departamentos a{
+    color: #333;
+    text-decoration: none
+}
+
+.busca input[type="search"]{
+    width: 210px
+}
+
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999 
+}
+
+.apartamentos{
+    float: left;
+}
+
+.apartamentos{
+    background-color: #F4A460;
+    background: linear-gradient(#F4A460, #F4BEBE) 
+
+}
+
+.casas{
+    float: right;
+}
+
+.casas{
+    background-color: #F4A460;
+    background: linear-gradient(#F4A460, #F4BEBE) 
+}
+
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px
+}
+
+.painel li:hover{
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+
+.painel h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.painel a{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none
+}
+
+
+.menu-opcoes a:hover{
+    color: #007DC6
+}
+.menu-opcoes a:active{
+    color: #7CFC00   
+}
+
+.menu-departamentos li ul{
+    display: none
+}
+
+.menu-departamentos li:hover ul{
+    display: block
+}
+
+.menu-departamentos ul ul li{
+    background-color: #DCDCDC
+}
+
+.menu-departamentos li li a:before{
+    content: '- '
+}
+
