@@ -1,0 +1,89 @@
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: auto;
+    width: 940px
+}
+
+h2{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px
+}
+
+.css img{
+    padding: 10px 0px 10px 0px;
+    width: 600px;
+    height: 399px;
+ }
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px
+}
+
+figcaption {
+    font-style: solid;
+    margin-top: 8px;
+    font-size: 26px
+}
+
+p{
+    text-indent: 15px;
+    padding: 0 45px
+}
+
+h1 {
+    text-indent: 0px
+}
+
+.link {
+    text-decoration: none;
+}
+
+#texto {
+    text-align:left;
+    color: #000000;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 205px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

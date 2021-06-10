@@ -40,6 +40,7 @@ header{
 }
 
 footer{
+    width: 100%;
     text-align: center;
     position: relative;
     font-weight: bold;
@@ -49,7 +50,7 @@ footer{
 .menu-opcoes{
     position: absolute;
     bottom: 0;
-    right: 0
+    right: 0;
 }
 
 .busca, .menu-departamentos{
@@ -73,7 +74,7 @@ footer{
 }
 
 .destaque{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .busca h2, .busca form, .menu-departamentos h2{
@@ -131,7 +132,7 @@ footer{
     padding-bottom: 10px
 }
 
-.painel li:hover{
+.paineis li:hover{
     background-color: rgba(255,255,255,0.8);
     box-shadow: 0 0 5px #333;
     transition: 0.7s;
